@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev # 环境设置
+  application:
+    name: infrastructure-apigateway
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848 # nacos服务地址
+        namespace: 0486772a-7934-4c7f-933f-af1cf6264604
+        file-extension: yaml
+
